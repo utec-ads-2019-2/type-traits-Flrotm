@@ -61,6 +61,7 @@ public:
     }
 
     int size() {
+        // Qué es nodes? Esto no compila
         return this->nodes;
     }
 
