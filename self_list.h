@@ -1,5 +1,5 @@
-#ifndef TRAITS_LIST_H
-#define TRAITS_LIST_H
+#ifndef SELFLIST_H
+#define SELFLIST_H 
 
 #include "node.h"
 #include <iostream>
@@ -29,7 +29,7 @@ private:
 
 public:
     TraitsList() : head(nullptr) {};
-
+// Y self list?
     bool insert(T data) {
         Node<T> **temp;
         if(!find(data,temp)){
